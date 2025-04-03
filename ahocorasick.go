@@ -268,6 +268,8 @@ func match(in []byte, n *node, unique func(f *node) bool) []int {
 					break
 				}
 			}
+		} else {
+			break
 		}
 	}
 
